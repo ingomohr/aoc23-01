@@ -20,8 +20,12 @@ def adapt_to_number(str_value):
     """
 
     # find all digits in string
-    digits = re.findall(r'\d+', str_value)
+    digits = re.findall(r'\d', str_value)
 
-    print("Found digits: " + str(digits))
+    if len(digits) < 1:
+        raise ValueError("Line must contain 2 or more digits: " + str_value)
 
-    return 42
+    d1 = digits[0]
+    d2 = digits[len(digits) - 1]
+
+    return int(str(d1) + str(d2))
