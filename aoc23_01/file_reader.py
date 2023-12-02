@@ -1,4 +1,7 @@
-def readLines(filePath):
+"""Reads data from files"""
+
+
+def read_lines(file_path):
     """
     Reads a file given given by its path and returns all lines.
 
@@ -8,5 +11,5 @@ def readLines(filePath):
     Returns:
     list: A list of strings where each string is a line from the file.
     """
-    with open(filePath) as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         return f.readlines()
