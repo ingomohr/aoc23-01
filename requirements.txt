@@ -1,0 +1,15 @@
+astroid==3.0.1
+certifi @ file:///private/tmp/python-certifi-20231117-4919-2f0o9m/certifi-2023.11.17
+dill==0.3.7
+isort==5.12.0
+Markdown @ file:///private/tmp/python-markdown-20231031-5265-15erphm/Markdown-3.5.1
+MarkupSafe @ file:///private/tmp/python-markupsafe-20231113-5538-1gridwx/MarkupSafe-2.1.3
+mccabe==0.7.0
+platformdirs==4.0.0
+Pygments @ file:///private/tmp/pygments-20231121-5274-1rlyumb/pygments-2.17.2
+pylint==3.0.2
+pywatchman==1.4.1
+tomlkit==0.12.3
+
+# the contents above have been created via
+# pip3 freeze > requirements.txt

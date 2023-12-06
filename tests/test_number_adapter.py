@@ -1,6 +1,6 @@
 """ Test for number_adapter """
 import unittest
-import aoc23_01.number_adapter as adapter
+import src.number_adapter as adapter
 
 
 class TestNumberAdapter(unittest.TestCase):

@@ -8,14 +8,16 @@ in Python 3
 ### Prerequisites
 * ✅ Check Python 3.x installed
 
-### Run Tests
-In root dir call
-```
-python3 -m unittest
-```
-
 ### Run Program
 In root dir call
 ```
-python3 aoc23_01/aoc1.py  
+export PYTHONPATH=.
+python3 src/aoc1.py  
+```
+
+### Run Tests
+In root dir (parent dir of `src` folder)  call
+```
+export PYTHONPATH=.
+python3 -m unittest
 ```

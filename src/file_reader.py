@@ -1,4 +1,4 @@
-"""Reads data from files"""
+""" Reads all lines from files """
 
 
 def read_lines(file_path):

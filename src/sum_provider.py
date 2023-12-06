@@ -1,7 +1,7 @@
-"""Computes the value sum for a calibration values file"""
+""" Computes the value sum for a calibration values file """
 
-import file_reader
-import number_adapter
+from src import file_reader
+from src import number_adapter
 
 
 def get_sum(file_path):

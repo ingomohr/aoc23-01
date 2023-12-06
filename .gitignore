@@ -1,2 +1,5 @@
 /__pycache__/
+/build/
+/aoc01.egg-info/
+/dist/
 *.pyc
