@@ -6,7 +6,7 @@ https://adventofcode.com/2023/day/1
 in Python
 
 ### Context
-This the my first Python project (kindly supported by Copilot, ChatGPT and some very nice friends).
+This is my first Python project (kindly supported by Copilot, ChatGPT and some very nice friends).
 As a stone-old Java developer my angle is to
 - 🌱 Find out how to do things in Python (including typical project structure)
 - 🧩 Solve mysteries the likes of "Why the heck doesn't it find that other module?" 😆
