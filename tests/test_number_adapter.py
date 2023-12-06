@@ -4,7 +4,7 @@ import src.number_adapter as adapter
 
 
 class TestNumberAdapter(unittest.TestCase):
-    """ . """
+    """ TestCase impl for number_adapter """
 
     def test_adapt_to_number(self):
         """ Tests adapt_to_number """
